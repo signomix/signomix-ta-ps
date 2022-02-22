@@ -1,0 +1,49 @@
+src/main/resources/META-INF/
+src/main/webapp/home/node_modules/
+src/main/webapp/home/public/build/
+src/main/webapp/blog/node_modules/
+src/main/webapp/blog/public/build/
+src/main/webapp/marketplace/node_modules/
+src/main/webapp/marketplace/public/build/
+doc/procedures.md
+attic
+
+#Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env

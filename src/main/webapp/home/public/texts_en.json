@@ -1,0 +1,15 @@
+{
+    "hello": "Hello EN!!",
+    "brand": "Signomix",
+    "title": "Signomix",
+    "navigation": {
+        "signin": "Log-in"
+    },
+    "list": {
+        "details": "Details ..."
+    },
+    "article": {
+        "title": "Title",
+        "back": "Back"
+    }
+}
