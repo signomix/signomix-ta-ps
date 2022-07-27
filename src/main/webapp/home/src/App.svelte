@@ -96,7 +96,7 @@
             return;
         }
         texts = JSON.parse(text);
-        document.title = texts.title;
+        //document.title = texts.title;
     }
 
     function getRoot(pathName) {
