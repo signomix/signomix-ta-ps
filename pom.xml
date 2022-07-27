@@ -128,6 +128,10 @@
               <token>%statuspageUrl%</token>
               <value>${env.SIGNOMIX_STATUSPAGE_URL}</value>
             </replacement>
+            <replacement>
+              <token>%title%</token>
+              <value>${env.SIGNOMIX_TITLE}</value>
+            </replacement>
           </replacements>
         </configuration>
       </plugin>
