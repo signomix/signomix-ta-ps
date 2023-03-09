@@ -22,14 +22,6 @@
             "target": ""
         },
         {
-            "url": "%statuspageUrl%",
-            "label": {
-                "pl": "Status",
-                "en": "Status"
-            },
-            "target": "_blank"
-        },
-        {
             "url": "/app/#!register",
             "label": {
                 "pl": "Załóż konto",

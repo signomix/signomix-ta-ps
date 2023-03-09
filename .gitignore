@@ -51,3 +51,4 @@ package-lock.json
 src/main/webapp/blog/package-lock.json
 src/main/webapp/home/package-lock.json
 .project
+logs/service.log
