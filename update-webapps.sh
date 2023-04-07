@@ -1,4 +1,9 @@
 #!/bin/bash
+cd src/main/webapp/home
+npm run build
+cd ../blog
+npm run build
+cd ../../../../
 rm -r -f src/main/resources/META-INF/resources/*
 mkdir -p src/main/resources/META-INF/resources/blog
 cp -r src/main/webapp/home/public/* src/main/resources/META-INF/resources

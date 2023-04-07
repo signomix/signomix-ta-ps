@@ -85,6 +85,7 @@
         language = event.detail.language
         prefix = language === defaultLanguage ? '' : language + '_';
         window.localStorage.setItem("language", language);
+        footer.languageChanged(language);
         if (typeof article !== 'undefined') {
             article.languageChanged(language);
         }
@@ -117,5 +118,5 @@
     <Navbar path='/blog' homePath={homePath} bind:this={navbar} languages={languages} language={language}
             defaultLanguage={defaultLanguage} on:setLanguage={handleSetLanguage} />
     <Article language={language} texts={texts} on:goBack={handleGoBack} bind:this={article} devmode={devMode} csAPI={csAPI} uid={docuid}/>
-    <Footer csAPI={csAPI} language={language} texts={texts} on:setLanguage={handleSetLanguage} devmode={devMode} bind:this={footer}/>
+    <Footer  language={language} texts={texts} bind:this={footer} devmode={devMode} csAPI={csAPI}/>
 </main>

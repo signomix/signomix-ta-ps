@@ -4,8 +4,6 @@
     const dispatch = createEventDispatcher();
 
     export let language;
-    export let texts;
-    export let devmode;
     export let uid;
     export let csAPI
 

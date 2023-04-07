@@ -1,8 +1,12 @@
 {
-    "logo": "/resources/blog-logo.png",
+    "logo": "resources/logo.png",
     "signin": {
         "pl": "Zaloguj się",
         "en": "Sign in"
+    },
+    "signup": {
+        "pl": "Zarejestruj się",
+        "en": "Sign up"
     },
     "elements": [
         {
@@ -18,14 +22,6 @@
             "label": {
                 "pl": "Blog",
                 "en": "Blog"
-            },
-            "target": ""
-        },
-        {
-            "url": "/app/#!register",
-            "label": {
-                "pl": "Załóż konto",
-                "en": "Register"
             },
             "target": ""
         }
