@@ -43,7 +43,7 @@
         {/each}
         {/if}
     </nav>
-    <a class="btn btn-outline-primary" href="/app/#!login">{navlist.signin[language]}</a>
+    <a class="btn btn-outline-primary" href="https://cloud.signomix.com">{navlist.signin[language]}</a>
 </div>
 <style>
     nav img{
