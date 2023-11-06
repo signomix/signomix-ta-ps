@@ -14,6 +14,7 @@
         "title": "",
         "logo": "",
         "signin":{},
+        "signinold":{},
         "elements": [
             { url: "/", label: { en: "Home", pl: "Home" }, target: "" }
 
@@ -43,7 +44,7 @@
         {/each}
         {/if}
     </nav>
-    <a class="btn btn-outline-primary" href="https://cloud.signomix.com">{navlist.signin[language]}</a>
+    <a class="btn btn-outline-primary" href="https://cloud.signomix.com">{navlist.signin[language]}</a> <a class="btn btn-outline-primary" href="https://signomix.com/app">{navlist.signinold[language]}</a>
 </div>
 <style>
     nav img{

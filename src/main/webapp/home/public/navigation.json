@@ -4,6 +4,10 @@
         "pl": "Zaloguj się",
         "en": "Sign in"
     },
+    "signinold": {
+        "pl": "Zaloguj się (stara wersja)",
+        "en": "Sign in (old version)"
+    },
     "signup": {
         "pl": "Zarejestruj się",
         "en": "Sign up"
